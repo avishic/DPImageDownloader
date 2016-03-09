@@ -45,12 +45,10 @@
 
 - (DPImageType*)image
 {
-    if (_image) {
-        return _image;
+    if (!_image) {
+        _image = [[DPImageType alloc] initWithData:_data];
     }
-    else {
-        return [[DPImageType alloc] initWithData:_data];
-    }
+    return _image;
 }
 
 - (BOOL)isExpiredWith:(NSTimeInterval)time lifeTime:(NSTimeInterval)lifeTime

@@ -6,8 +6,8 @@ Pod::Spec.new do |s|
     'Yusuke SUGAMIYA' => 'yusuke.dnpp@gmail.com',
     'Yusuke Ito'      => 'novi.mad@gmail.com'
   }
-  s.homepage              = 'https://github.com/dnpp73/DPImageDownloader'
-  s.source                = { :git => 'https://github.com/dnpp73/DPImageDownloader.git', :tag => "#{s.version}" }
+  s.homepage              = 'https://github.com/avishic/DPImageDownloader'
+  s.source                = { :git => 'https://github.com/avishic/DPImageDownloader.git', :tag => "#{s.version}" }
   source_files            = 'DPImageDownloader/**/*.{h,m}'
   s.source_files          = source_files
   s.ios.source_files      = source_files
